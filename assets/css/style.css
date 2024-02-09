@@ -277,3 +277,48 @@ border-radius: 9px;
 #Subscribe{
     background-image: url(../img/subscribe-bg.jpg);
 }
+.SubscribeAllOnes .imagePartOfSubscribe{
+    display: flex;
+    justify-content: center;
+}
+.SubscribeAllOnes  .imagePartOfSubscribe img{
+    margin-top: 139px;
+}
+.TitlesForSubscription h2{
+    margin-top: -39px;
+    margin-bottom: 10px;
+}
+.TitlesForSubscription {
+    text-align: center;
+}
+.TitlesForSubscription p{
+    margin-bottom: 34px;
+}
+.EmailCheck{
+    border-radius: 35px;
+    height: 70px;
+    font-size: 15px;
+    border: 0;
+    /* float: left; */
+    padding: 25px;
+    width: calc(100% - 401px);
+    font-weight: 400;
+    margin-bottom: 150px;
+}
+.input-group{
+    position: relative;
+}
+.subscribe-button{
+    position: absolute;
+    right: 211px;
+    top: 10px;
+border: none;
+background-color: gray;
+color: #fff;
+
+padding: 17px 31px;
+border-radius: 35px;
+font-size: 14px;
+letter-spacing: .5px;
+transition: background-color 0.5s ease;
+}
