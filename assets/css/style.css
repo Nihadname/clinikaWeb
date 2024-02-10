@@ -337,13 +337,72 @@ transition: background-color 0.5s ease;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 93px;
     
 }
 .writingPartsPartners p{
     margin-bottom: 47px;
 }
 .IconsOfPartners img{
-    filter: grayscale(); 
+    filter: grayscale(1); 
     width: calc(100%/8);
+    opacity: .3;
+transition: all 300ms ease;
+cursor: pointer;
     margin-right: 37px;
+}
+
+.IconsOfPartners img:hover{
+filter: brightness(2);
+}
+.AllOfNews .imageOne{
+    display: flex;
+    justify-content: center;
+}
+.AllOfNews .writingPartsNews h2{
+    margin-top: -25px;
+    margin-bottom: 19px;
+}
+.cardsNews{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 50px; 
+}
+.cardsNews .box2{
+    width: calc(33.333% - 10px);
+    margin-bottom: 35px; 
+    height: max-content;   
+}
+.imageNews {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+}
+
+.imageNews img {
+    width: 100%;
+    transition: transform 0.3s ease; 
+    display: block; 
+    margin-bottom: 40px;
+}
+
+.imageNews img:hover {
+    transform: scale(1.1); 
+}
+.writingNews a{
+    color: #3d404f;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+}
+.writingNews p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
