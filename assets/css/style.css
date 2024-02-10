@@ -154,7 +154,7 @@ margin-top: -80px;
     height: 120px;
     position: relative;
    
-    bottom:400px;
+    bottom:572px;
     right: 35px;
     display: flex;
     flex-direction: column;
@@ -276,6 +276,7 @@ border-radius: 9px;
 }
 #Subscribe{
     background-image: url(../img/subscribe-bg.jpg);
+    margin-bottom: 130px;
 }
 .SubscribeAllOnes .imagePartOfSubscribe{
     display: flex;
@@ -321,4 +322,28 @@ border-radius: 35px;
 font-size: 14px;
 letter-spacing: .5px;
 transition: background-color 0.5s ease;
+}
+.AllCompenets .imageOne{
+    display: flex;
+    justify-content: center;
+}
+.AllCompenets .writingPartsPartners h2{
+    margin-top: -38px;
+}
+.writingPartsPartners h2{
+    margin-bottom: 18px;
+}
+.IconsOfPartners{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.writingPartsPartners p{
+    margin-bottom: 47px;
+}
+.IconsOfPartners img{
+    filter: grayscale(); 
+    width: calc(100%/8);
+    margin-right: 37px;
 }
